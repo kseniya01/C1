@@ -1,4 +1,172 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+
+body {
+    background-color: #2E4494;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    background-color: #2E4494;
+    padding: 20px;
+    width: 1500px;
+    height: 700px;
+  }
+  
+  .grid-container > div {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-style: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+  }
+  
+  .item1 {
+    grid-row: 1 / 3;
+    text-align: center;
+    max-height: 500px;
+    width: 300px;
+  }
+  
+  #grad1 {
+    background-color: #FFE500; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #FFE500);
+  }
+  
+  
+  .item2 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad2 {
+    background-color: #CCAE93; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #CCAE93);
+  }
+  
+  .item3 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad3 {
+    background-color: #CF9F9F; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #CF9F9F);
+  }
+  
+  .item4 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad4 {
+    background-color: #5C7C51; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #5C7C51);
+  }
+  
+  .item5 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad5 {
+    background-color: #DE4141; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #DE4141);
+  }
+  
+  .item6 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad6 {
+    background-color: #94885E; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #94885E);
+  }
+  
+  .item7 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad7 {
+    background-color: #C69310; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #C69310);
+  }
+  
+  .item8 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad8 {
+    background-color: #CCAE93; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #CCAE93);
+  }
+  
+  .item9 {
+    text-align: center;
+    max-height: 300px;
+    width: 200px;
+  }
+  
+  #grad9 {
+    background-color: #CCAE93; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FFFFFF, #CCAE93);
+  }
+  
+  h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 25px;
+  }
+
+  h2 {
+    color: black;
+    font-size: 35px;
+  }
+
+  h3 {
+    color: black;
+    font-size: 20px;
+    
+  }
+
+  p {
+    color: black;
+    font-size: 20px;
+  }
+
+  /* Dashed border */
+hr.dashed {
+    border-top: 3px dashed #000000;
+  }
+
+  /* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #000000;
+  }
+  
+  /* Solid border */
+  hr.solid {
+    border-top: 3px solid #000000;
+  }
+  
+  /* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #000000;
+    border-radius: 5px;
+  }
